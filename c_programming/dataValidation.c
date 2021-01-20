@@ -18,12 +18,3 @@ void main() {
 
 
 
-enter first +ve num: -2
-enter first +ve num: -3
-enter first +ve num: 4
-
-enter second +ve num: -3
-enter second +ve num: -5
-enter second +ve num: 3
-
-4 + 3 = 7
