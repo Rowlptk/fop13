@@ -18,12 +18,27 @@ max = 3 ==> m[1]
 #include<stdio.h>
 
 void main() {
-    int m[5] = {1, 3, 2, 6, 5};
+    int size;
     int temp, index;
     int max;
-    for(int j=0; j < 5; j++) {
+
+    printf("Enter size of an array : ");
+    scanf("%d",&size);
+    int m[size];
+    //int m[5] = {1,2,3,4,5};
+    for(int i=0; i< size; i++) {
+        printf("m[%d] = ",i);
+        scanf("%d",&m[i]);
+    }
+
+    /*for(int k=0; k<size; k++) {
+        printf("%d ", m[k]);
+    }*/
+
+    for(int j=0; j < size; j++) {
         max = m[j];
-        for(int i = j; i < 5 ; i++) {
+        index = j;
+        for(int i = j+1; i < size ; i++) {
             if(max < m[i]) {
                 max = m[i];
                 index = i;
@@ -32,10 +47,14 @@ void main() {
         temp = m[j];
         m[j] = max;
         m[index] = temp;
-    }
 
-    for(int j=0; j<5; j++) {
-        printf("%d ", m[j]);
+
+        }
+
+
+
+    for(int k=0; k<size; k++) {
+        printf("%d ", m[k]);
     }
 }
 
