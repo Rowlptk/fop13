@@ -5,7 +5,7 @@ char str[10] ==> A P P L E /0 _ _ _ _
 
 printf("%s",str);*/
 #include<stdio.h>
-#include<string.h>
+
 void main() {
     char str[10] = "Apple A";
     char str2[20];
