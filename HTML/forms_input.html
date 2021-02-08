@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Inputs</title>
+</head>
+<body>
+    <form action="#" method="GET">
+        <!-- text -->
+        <div>
+            <label for="name">Name : </label>
+            <input type="text" name="name" id="name">
+        </div>
+        <!-- email -->
+        <div>
+            <label for="email">Email : </label>
+            <input type="email" name="email" id="email">
+        </div>
+        <!-- password -->
+        <div>
+            <label for="pass">Password : </label>
+            <input type="password" name="pass" id="pass">
+        </div>
+        <!-- textarea -->
+        <div>
+            <label for="comment">Comment : </label> <br>
+            <textarea name="com" id="comment" cols="30" rows="10"></textarea>
+        </div>
+        <!-- Select -->
+        <div>
+            <label for="country">Country : </label>
+            <select name="country" id="country">
+                <option value="USA">USA</option>
+                <option value="AUS">Australia</option>
+                <option value="CAD">Canada</option>
+            </select>
+        </div>
+
+        <!-- Number -->
+        <div>
+            <input type="number" name="" id="">
+        </div>
+        <div>
+            <input type="date" name="" id="">
+        </div>
+        <div>
+            <input type="radio" name="m" id="">radio 1
+            <input type="radio" name="m" id="">radio 2
+            <input type="radio" name="m" id="">radio 3
+        </div>
+
+        <div>
+            <input type="checkbox" name="" id="">IELTS
+            <input type="checkbox" name="" id="">TOEFL
+            <input type="checkbox" name="" id="">SAT
+            <input type="checkbox" name="" id="">GRE
+        </div>
+
+        <div>
+            <input type="file" name="" id="">
+        </div>
+
+        <div>
+            <input type="text" placeholder="Enter String" value="apple" required>
+        </div>
+
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
