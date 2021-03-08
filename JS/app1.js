@@ -119,6 +119,10 @@ Math = {
 }
 */
 
-
+let myData = prompt("Data");
+myData = Number(myData);
+myData = myData+1;
+console.log(myData);
+console.log(typeof(myData));
 
 
